@@ -21,7 +21,7 @@
         version = "8.1.1";
       };
       pd-image = makeTikvDockerImage {
-        binary = tikv;
+        binary = pd;
         pname = "pd";
         version = "8.1.1";
       };
